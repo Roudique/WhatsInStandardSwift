@@ -12,7 +12,7 @@ public struct EstimatedDate: Codable {
     /// Date formatter to use during coding/decoding. Format is RFC3339.
     public static let dateFormatter: DateFormatter = {
         let formatter = DateFormatter()
-        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ"
+        formatter.dateFormat = "yyyy-MM-dd'T'HH.mm.ss.SSS"
         return formatter
     }()
     

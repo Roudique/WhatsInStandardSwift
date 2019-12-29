@@ -23,4 +23,9 @@ public struct StandardInfo: Codable {
     /// a previous rotation; you should filter them out based on the provided set setCode and that set's exit date from
     /// Standard.
     public let bans: [BannedCard]
+    
+    private enum CodingKeys: String, CodingKey {
+        case isDeprecated = "deprecated"
+        case sets, bans
+    }
 }

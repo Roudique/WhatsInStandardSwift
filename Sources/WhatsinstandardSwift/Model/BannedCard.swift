@@ -26,7 +26,7 @@ public struct BannedCard: Codable {
     
     private enum CodingKeys: String, CodingKey {
         case name = "cardName"
-        case imageURL = "cardImageURL"
+        case imageURL = "cardImageUrl"
         case setCode, reason
         case announcementURL = "announcementUrl"
     }

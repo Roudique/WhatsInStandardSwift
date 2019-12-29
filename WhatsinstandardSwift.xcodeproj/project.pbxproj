@@ -31,6 +31,8 @@
 		842C18C623B85FBF004B505B /* SetSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C18C423B85FBF004B505B /* SetSymbol.swift */; };
 		842C18C823B86057004B505B /* EstimatedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C18C723B86057004B505B /* EstimatedDate.swift */; };
 		842C18C923B86057004B505B /* EstimatedDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C18C723B86057004B505B /* EstimatedDate.swift */; };
+		842C18CB23B86704004B505B /* WhatsInStandardAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C18CA23B86704004B505B /* WhatsInStandardAPI.swift */; };
+		842C18CC23B86704004B505B /* WhatsInStandardAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C18CA23B86704004B505B /* WhatsInStandardAPI.swift */; };
 		OBJ_30 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 		OBJ_41 /* WhatsinstandardSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* WhatsinstandardSwiftTests.swift */; };
 		OBJ_42 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
@@ -60,6 +62,7 @@
 		842C18C123B85F9C004B505B /* StandardSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardSet.swift; sourceTree = "<group>"; };
 		842C18C423B85FBF004B505B /* SetSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetSymbol.swift; sourceTree = "<group>"; };
 		842C18C723B86057004B505B /* EstimatedDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimatedDate.swift; sourceTree = "<group>"; };
+		842C18CA23B86704004B505B /* WhatsInStandardAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsInStandardAPI.swift; sourceTree = "<group>"; };
 		OBJ_12 /* WhatsinstandardSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsinstandardSwiftTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
 		OBJ_17 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -102,6 +105,7 @@
 		842C18BA23B858D4004B505B /* API */ = {
 			isa = PBXGroup;
 			children = (
+				842C18CA23B86704004B505B /* WhatsInStandardAPI.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -253,6 +257,7 @@
 			files = (
 				842C18C523B85FBF004B505B /* SetSymbol.swift in Sources */,
 				842C18C823B86057004B505B /* EstimatedDate.swift in Sources */,
+				842C18CB23B86704004B505B /* WhatsInStandardAPI.swift in Sources */,
 				842C18C223B85F9C004B505B /* StandardSet.swift in Sources */,
 				842C18BC23B85F56004B505B /* StandardInfo.swift in Sources */,
 				842C18BF23B85F82004B505B /* BannedCard.swift in Sources */,
@@ -275,6 +280,7 @@
 				842C18C323B85F9C004B505B /* StandardSet.swift in Sources */,
 				842C18C623B85FBF004B505B /* SetSymbol.swift in Sources */,
 				842C18C023B85F82004B505B /* BannedCard.swift in Sources */,
+				842C18CC23B86704004B505B /* WhatsInStandardAPI.swift in Sources */,
 				842C18C923B86057004B505B /* EstimatedDate.swift in Sources */,
 				OBJ_42 /* XCTestManifests.swift in Sources */,
 				842C18BD23B85F56004B505B /* StandardInfo.swift in Sources */,
