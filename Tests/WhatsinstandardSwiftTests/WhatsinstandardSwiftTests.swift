@@ -18,6 +18,14 @@ final class WhatsinstandardSwiftTests: XCTestCase {
         
         wait(for: [exp], timeout: 3.0)
     }
+    
+    func testParse() throws {
+        let url = try XCTUnwrap(Bundle(for: type(of: self)).url(forResource: "test_data", withExtension: "json"))
+        let data = try Data(contentsOf: url)
+        
+        
+        XCTAssertNotNil(try WhatsInStandardAPI.decode(data: data))
+    }
 
     static var allTests = [
         ("testFetch", testFetch),

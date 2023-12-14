@@ -49,12 +49,8 @@ public class WhatsInStandardAPI {
                 completion(.failure(.decodingError))
                 return
             }
-            
-            let decoder = JSONDecoder()
-            decoder.dateDecodingStrategy = .formatted(EstimatedDate.dateFormatter)
-            
             do {
-                let info = try decoder.decode(StandardInfo.self, from: data)
+                let info = try decode(data: data)
                 completion(.success(info))
             } catch {
                 print("error: \(error)")
@@ -62,6 +58,13 @@ public class WhatsInStandardAPI {
             }
         }
         dataTask.resume()
+    }
+    
+    static func decode(data: Data) throws -> StandardInfo {
+        let decoder = JSONDecoder()
+        decoder.dateDecodingStrategy = .formatted(EstimatedDate.dateFormatter)
+        
+        return try decoder.decode(StandardInfo.self, from: data)
     }
     
     // MARK: - Private
